@@ -1,9 +1,9 @@
-## Title : Online-shoppers-behaviour-prediction
-## Author : Anshila K
-## Organisation : Entri
-## Date (Submission / Evaluation Date) : 1-07-2024
+### Title : Online-shoppers-behaviour-prediction
+#### Author : Anshila K
+#### Organisation : Entri
+#### Date (Submission / Evaluation Date) : 1-07-2024
 
-## Table Of Content
+### Table Of Content
 1. Overview
 2. Data Collection
 3. Data Description
@@ -18,10 +18,10 @@
 12. Model Deployment
 13. Conclusion
     
-## Overview
+### Overview
 Predicting whether a visitor will generate revenue for the online shopping website based on various features
 
-## Objective
+### Objective
 The main goal of this project is to develop a machine learning model that can accurately predict if a visitor will make a purchase during their session on the website. 
 
 ## Data Description
@@ -51,13 +51,13 @@ The dataset is collected from Kaggle : <a href="https://www.kaggle.com/datasets/
  -- Weekend: Whether the visit happened on a weekend.
  -- Revenue: Whether the visit resulted in a transaction.
 
-## Limitations
+### Limitations
 Imbalanced Data: The dataset has a disproportionate number of samples in classe , the model may become biased towards the majority class. This imbalance can lead to poor performance in predicting the minority class, which is often the class of most interest.
 
-## Conclusion
+### Conclusion
 Random Forest seems like the best overall choice due to its strong performance and effective feature importance analysis. Gradient Boost follows closely behind with competitive accuracy and interpretability.
 
-## Future Work
+### Future Work
 -	Collect More Data: Increasing the dataset size can provide more information for the model to learn from, improving its accuracy and robustness.
 -	Try Different Algorithms: Experimenting with other algorithms, including advanced deep learning models, might enhance accuracy.
 - Resample for Imbalanced Data: Undersampling the majority class can address data imbalance and improve model performance.
