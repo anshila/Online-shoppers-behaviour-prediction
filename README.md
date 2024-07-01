@@ -29,9 +29,10 @@ The main goal of this project is to develop a machine learning model that can ac
 The dataset is collected from Kaggle : <a href="https://www.kaggle.com/datasets/imakash3011/online-shoppers-purchasing-intention-dataset">Dataset</a>
 
 2. Dataset Overview
-i) Size: The dataset contains 3810 rows and 18 columns.
+  
+   **Size:** The dataset contains 3810 rows and 18 columns.
 
-ii) Features: The features are a mix of numerical and categorical data that describe various aspects of user behavior and session details on the online shopping website. Below is a brief description of each feature:
+   **Features:** The features are a mix of numerical and categorical data that describe various aspects of user behavior and session details on the online shopping website. Below is a brief description of each feature:
 
  - Administrative: Number of pages visited by the visitor about administrative.
  
