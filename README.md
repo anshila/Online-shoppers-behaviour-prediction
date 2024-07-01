@@ -29,44 +29,44 @@ The main goal of this project is to develop a machine learning model that can ac
 The dataset is collected from Kaggle : <a href="https://www.kaggle.com/datasets/imakash3011/online-shoppers-purchasing-intention-dataset">Dataset</a>
 
 2. Dataset Overview
-- Size: The dataset contains 3810 rows and 18 columns.
-- Features: The features are a mix of numerical and categorical data that describe various aspects of user behavior and session details on the online shopping website. Below is a brief description of each feature:
+i) Size: The dataset contains 3810 rows and 18 columns.
+ii) Features: The features are a mix of numerical and categorical data that describe various aspects of user behavior and session details on the online shopping website. Below is a brief description of each feature:
 
- -- Administrative: Number of pages visited by the visitor about administrative.
+ - Administrative: Number of pages visited by the visitor about administrative.
  
- -- Administrative_Duration: Total time spent by the visitor on administrative pages.
+ - Administrative_Duration: Total time spent by the visitor on administrative pages.
  
- -- Informational: Number of pages visited by the visitor about information .
+ - Informational: Number of pages visited by the visitor about information .
  
- -- Informational_Duration: Total time spent by the visitor on informational pages.
+ - Informational_Duration: Total time spent by the visitor on informational pages.
  
- -- ProductRelated: Number of pages visited by the visitor about products.
+ - ProductRelated: Number of pages visited by the visitor about products.
  
- -- ProductRelated_Duration: Total time spent by the visitor on product-related pages.
+ - ProductRelated_Duration: Total time spent by the visitor on product-related pages.
  
- -- BounceRates: The percentage of visitors who enter the website and then leave rather than continuing to view other pages.
+ - BounceRates: The percentage of visitors who enter the website and then leave rather than continuing to view other pages.
  
- -- ExitRates: The percentage of pageviews on the website that were the last in the session.
+ - ExitRates: The percentage of pageviews on the website that were the last in the session.
  
- -- PageValues: The average value for a web page that a user visited before completing an e-commerce transaction.
+ - PageValues: The average value for a web page that a user visited before completing an e-commerce transaction.
  
- -- SpecialDay: Closeness of the visit to a special day.
+ - SpecialDay: Closeness of the visit to a special day.
  
- -- Month: Month of the year when the visit occurred.
+ - Month: Month of the year when the visit occurred.
  
- -- OperatingSystems: Operating system used by the visitor.
+ - OperatingSystems: Operating system used by the visitor.
  
- -- Browser: Browser used by the visitor.
+ - Browser: Browser used by the visitor.
  
- -- Region: Geographic region of the visitor.
+ - Region: Geographic region of the visitor.
  
- -- TrafficType: Source of traffic.
+ - TrafficType: Source of traffic.
  
- -- VisitorType: Whether the visitor is a returning visitor or a new visitor.
+ - VisitorType: Whether the visitor is a returning visitor or a new visitor.
  
- -- Weekend: Whether the visit happened on a weekend.
+ - Weekend: Whether the visit happened on a weekend.
  
- -- Revenue: Whether the visit resulted in a transaction.
+ - Revenue: Whether the visit resulted in a transaction.
 
 ### Limitations
 Imbalanced Data: The dataset has a disproportionate number of samples in classe , the model may become biased towards the majority class. This imbalance can lead to poor performance in predicting the minority class, which is often the class of most interest.
