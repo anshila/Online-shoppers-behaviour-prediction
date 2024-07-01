@@ -71,7 +71,7 @@ The dataset is collected from Kaggle : <a href="https://www.kaggle.com/datasets/
  - Revenue: Whether the visit resulted in a transaction.
 
 ### Limitations
-Imbalanced Data: The dataset has a disproportionate number of samples in classe , the model may become biased towards the majority class. This imbalance can lead to poor performance in predicting the minority class, which is often the class of most interest.
+Imbalanced Data: The dataset has a disproportionate number of samples in class , the model may become biased towards the majority class. This imbalance can lead to poor performance in predicting the minority class, which is often the class of most interest.
 
 ### Conclusion
 Random Forest seems like the best overall choice due to its strong performance and effective feature importance analysis. Gradient Boost follows closely behind with competitive accuracy and interpretability.
