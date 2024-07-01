@@ -30,7 +30,7 @@ The dataset is collected from Kaggle : <a href="https://www.kaggle.com/datasets/
 
 2. Dataset Overview
   
-   **Size:** The dataset contains 3810 rows and 18 columns.
+   **Size:** The dataset contains 12330 rows and 18 columns.
 
    **Features:** The features are a mix of numerical and categorical data that describe various aspects of user behavior and session details on the online shopping website. Below is a brief description of each feature:
 
